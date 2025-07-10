@@ -61,5 +61,16 @@ export default function MyFinanceLanding() {
       </main>
     </div>
   );
+import { useNavigate } from 'react-router-dom';
+
+export default function MyFinanceLanding() {
+  const navigate = useNavigate();
+
+  return (
+    <button className="cta" onClick={() => navigate('/promote')}>
+      Promote
+    </button>
+  );
+}
 
 

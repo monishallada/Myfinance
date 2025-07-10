@@ -1,7 +1,12 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
+
+
 import './MyFinanceLanding.css';
 
 export default function MyFinanceLanding() {
+  const navigate = useNavigate();
+
   return (
     <div className="page">
       <header className="header">
@@ -23,7 +28,9 @@ export default function MyFinanceLanding() {
           <p>
             Welcome to MyFinance — an intelligent financial assistant powered by AI and machine learning. We help you build personalized investment portfolios tailored to your goals, risk profile, and time horizon. Our platform also offers advanced tools like AI-powered chatbots, stock trading bots, and more to guide your financial journey.
           </p>
-          <button className="cta">Start Here</button>
+          <button className="cta" onClick={() => navigate('/dashboard')}>
+  Start Here
+</button>
 
           <div className="trusted">
   <p>Trusted by 100+ companies</p>

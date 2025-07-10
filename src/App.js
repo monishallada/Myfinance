@@ -1,6 +1,7 @@
+import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import MyFinanceLanding from './MyFinanceLanding';
-import Dashboard from './Dashboard'; // your other page
+import Dashboard from './Dashboard'; // ✅ this is your other page
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
 }
 
 export default App;
+<Route path="/dashboard" element={<Dashboard />} />
 
 
 

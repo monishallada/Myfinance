@@ -29,8 +29,8 @@ export default function MyFinanceLanding() {
             <p>Trusted by 100+ companies</p>
             <div className="logos">
               <img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Logo_NIKE.svg" alt="Nike" />
-              <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Sony_Logo.svg" alt="Sony" />
-              <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/ABC_Logo.svg" alt="ABC" />
+              <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nvidia.com%2Fen-us%2Fabout-nvidia%2Flegal-info%2Flogo-brand-usage%2F&psig=AOvVaw2MZGDBTMpN_7z9Ze76TCvN&ust=1752247190455000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIDSvs3Lso4DFQAAAAAdAAAAABAE" alt="Sony" />
+              <img src="https://dxc.scene7.com/is/image/dxc/OracleRedwood2?qlt=90&wid=1200&ts=1749046961779&$square_desktop$&dpr=off" alt="ABC" />
             </div>
           </div>
         </div>

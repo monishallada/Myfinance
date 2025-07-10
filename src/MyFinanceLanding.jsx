@@ -1,5 +1,5 @@
 import React from 'react';
-import './MyFinanceLanding.css'; // Make sure to include the CSS
+import './MyFinanceLanding.css';
 
 export default function MyFinanceLanding() {
   return (
@@ -7,7 +7,8 @@ export default function MyFinanceLanding() {
       <header className="header">
         <h1 className="logo">myFinance</h1>
         <nav className="nav">
-          <span>Resources ▼</span>
+          <span>About Us</span>
+          <span>Products</span>
           <span>Pricing</span>
           <button>Contact</button>
         </nav>
@@ -21,7 +22,7 @@ export default function MyFinanceLanding() {
           </h2>
           <p>
             do type shi type shi do type shi type shi do type shi type shi do type shi type shi do
-            type shi type shi do type shi type shi do type shi type shi do
+            type shi type shi do type shi type shi do type shi type shi do type shi type shi do
             type shi type shi do type shi type shi do type shi type shi do
           </p>
           <button className="cta">Start Here</button>

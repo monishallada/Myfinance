@@ -18,7 +18,7 @@ export default function MyFinanceLanding() {
         {/* Left Side */}
         <div className="left">
           <h2>
-            Start your journey to<span className="pulse highlight"> Financiol Freedom</span>
+            Start your journey to<span className="pulse highlight"> Financial Freedom</span>
           </h2>
           <p>
             Welcome to MyFinance — an intelligent financial assistant powered by AI and machine learning. We help you build personalized investment portfolios tailored to your goals, risk profile, and time horizon. Our platform also offers advanced tools like AI-powered chatbots, stock trading bots, and more to guide your financial journey.

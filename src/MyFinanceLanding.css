@@ -143,3 +143,6 @@ body, html {
 .label2 { top: 22%; left: 12%; }
 .label3 { top: 72%; left: 25%; }
 .label4 { top: 52%; right: 3%; }
+.highlight {
+  color: #a700ff;
+}

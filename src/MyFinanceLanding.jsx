@@ -18,12 +18,10 @@ export default function MyFinanceLanding() {
         {/* Left Side */}
         <div className="left">
           <h2>
-            some tuff line here <span className="pulse">ANIMATED TEXT</span>
+            some tuff line here <span className="pulse highlight">ANIMATED TEXT</span>
           </h2>
           <p>
-            do type shi type shi do type shi type shi do type shi type shi do type shi type shi do
-            type shi type shi do type shi type shi do type shi type shi do type shi type shi do
-            type shi type shi do type shi type shi do type shi type shi do
+            Welcome to MyFinance — an intelligent financial assistant powered by AI and machine learning. We help you build personalized investment portfolios tailored to your goals, risk profile, and time horizon. Our platform also offers advanced tools like AI-powered chatbots, stock trading bots, and more to guide your financial journey.
           </p>
           <button className="cta">Start Here</button>
 
@@ -49,3 +47,4 @@ export default function MyFinanceLanding() {
     </div>
   );
 }
+
